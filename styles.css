@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container{
+    margin: 50px;
+}
+
+h1{
+    color: #333;
+}
+
+.game{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.choice{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#result{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.score{
+    font-weight: bold;
+}
